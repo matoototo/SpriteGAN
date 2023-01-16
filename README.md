@@ -17,3 +17,8 @@ To generate your own sprites, simply call grid_gen.py with the downloaded weight
 python3 grid_gen.py --netpath ./network-snapshot.pkl --outdir ./examples --grid_x 50 --grid_y 50
 ```
 
+This generates a fresh (50x50) grid of sprites. You can split this grid into individual sprite files using the `split_grid.py` script as follows:
+```bash
+python split_grid.py --image ./examples/name-of-grid.png --outdir ./sprites/
+```
+This will save the sprites in the ./sprites/ directory (created if doesn't exist). The filenames will be the MD5 hash of the sprite.
