@@ -2,7 +2,7 @@
 
 <img src="./examples/psi-progression.gif" width=100% alt="PSI progression GIF"></img>
 
-This is a [DiffAugment StyleGAN2](https://github.com/mit-han-lab/data-efficient-gans) trained on 32x32 sprites. The model was trained in early 2022. While the outputs are far from perfect and do exhibit partial mode collapse, to my knowledge this is the SOTA in equipment sprite generation at a fixed size.
+This is a [DiffAugment StyleGAN2](https://github.com/mit-han-lab/data-efficient-gans) trained on 32x32 sprites. The model was trained in early 2022. While the outputs are far from perfect and do exhibit partial mode collapse, to my knowledge this was the SOTA in equipment sprite generation at a fixed size at release.
 
 The GIF above showcases 27 randomly sampled points in the latent space, with increasing truncation_psi from 0.0 to 1.2. A larger example with 2500 individual sprites (at 1.0 psi) can be found under [./examples/psi-1.0.png](examples/psi-1.0.png). If you want to generate your own, follow the installation instructions below.
 
